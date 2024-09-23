@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# Side Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+練習小專案
+內容包含
+Side Project Part I - 登入介面
+2024/8~仍在進行
+主要使用：ReactJS、Node.js、Express.js、passport-jwt
+資料庫：、PostgreSQL
+介面設計參考：AsmrProg
+原設計是使用html+CSS+JS撰寫，本計畫則以ReactJS重新編寫並配合Node.js、Express連結PostgreSQL資料庫來進行帳號密碼的驗證，而授權(authorization)程序則以JWT來進行。
 
-## Available Scripts
+Side Project Part II - 台灣百岳、小百岳及三角點展示
+2024/8~2024/9
+主要使用：ReactJS、Node.js、Express.js、GeoJson
+串接API：MapBox、wikipedia API、openWeather API
+因為有爬山習慣，所以想說可以設計一個介紹百岳及小百岳的小程式。
 
-In the project directory, you can run:
+Side Project Part III - 持股統計
+2024/8~仍在進行
+主要使用：ReactJS、Node.js、Express.js、D3.js、Chart.js
+資料庫：PostgreSQL
+串接API：證交所Open API、FinMind API
+對股票有興趣，因此依照經驗製作相關的設計，目前在交易紀錄方面還未設計完成，算是空閒時的課題，完成後會進行更新。
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+專案建置方法
+本專案採用Client與Server分離寫法，必須先啟動ReactProject1-Server端後
+執行
+npm start
