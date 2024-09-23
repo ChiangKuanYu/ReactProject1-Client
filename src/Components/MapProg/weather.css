@@ -1,0 +1,103 @@
+.weather-box1, .weather-box2 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius:15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    margin-top: 15px;
+}
+
+.weather-box1 h1, .weather-box2 h1{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.weather-info {
+    display: flex;
+    align-items: center;
+}
+
+.weather-temp {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weather-box1 img{
+    width: 65px;
+    height: 65px;
+    padding-bottom: 5px;
+}
+
+.weather-description{
+    text-transform: capitalize;
+    padding-top: 10px;
+    width: 100%;
+}
+
+.weather-description .text-title{
+    font-size:20px ;
+}
+
+.weather-details{
+    display: flex;
+}
+
+.weather-details .humidity, .weather-details .wind{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-top: 5px;
+}
+
+.weather-details .humidity{
+    justify-content: flex-start;
+}
+
+.weather-details span .number{
+    padding-right: 2px;
+    color: #06283D;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.weather-details p{
+    padding-right: 2px;
+    color: #06283D;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.unit{
+    color: #06283D;
+    font-size: 10px;
+}
+
+.mr-3{
+    color: #9a9d9f;
+    margin-right: 5px;
+}
+
+.weather-box2 .daily-forecast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.weather-box2 img{
+    width: 40px;
+    height: 40px;
+    padding-bottom: 5px;
+}
+
+.weather-box2 .daily-forecast .weather-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 10px;
+}
+

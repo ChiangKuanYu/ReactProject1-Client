@@ -1,0 +1,40 @@
+.right-section{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    background: #fff;
+}
+
+.right-section .article-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius:15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    margin-top: 5px;
+    height: auto;
+    max-height: 59%;
+}
+
+.right-section .article-box .article{
+    float: left;
+    align-items: center;
+    padding: 5px 10px;
+    overflow: auto;
+}
+
+/* .right-section .article .show-content{
+    height: auto;
+    max-height: 50%;
+    overflow: auto;
+} */
+
+.right-section .article img{
+    height: auto;
+    width:30%; 
+    overflow: auto;
+    float: left;
+    padding: 5px 10px;
+}
